@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testMathUtil": "jest ./mathUtil/index.test.js",
+    "testMathError": "jest ./mathUtil/mathError.test.js"
   },
   "keywords": [],
   "author": "",
